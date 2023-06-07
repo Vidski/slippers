@@ -14,7 +14,7 @@ from django.utils.safestring import mark_safe
 
 from rich.console import Console
 from rich.panel import Panel
-from typeguard import check_type, get_type_name
+from typeguard.utils import get_type_name
 
 console = Console()
 
